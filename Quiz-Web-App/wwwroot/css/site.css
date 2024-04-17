@@ -1,0 +1,122 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+body {
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+h1 {   
+    color: #BEBDB8;
+}
+
+h2 {
+    color: #D6CFC7;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.btn {
+    font-size: 2.4rem;
+    padding: 1rem 0;
+    width: 30rem;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    display: grid;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: blue rgb(28,26,26);
+    background: linear-gradient(90deg, rgb(0, 240, 240) 0%, rgb(0, 240, 240) 100%);
+    border-radius: 4px;
+}
+
+    .btn:hover {
+        cursor: pointer;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 240, 240, 0.6);
+        transition: transform 150ms;
+        transform: scale(1.03);
+    }
+
+    .btn[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+    }
+
+#highscore-btn {
+    background: linear-gradient(90deg, rgb(218, 165, 32) 0%, rgb(218, 165, 32) 100%);
+}
+
+    #highscore-btn:hover {
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(218, 165, 32, 0.6);
+    }
+
+a {
+  color: #0366d6;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
